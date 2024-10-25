@@ -5,7 +5,7 @@ tasks:
     run:
         cmds:
             - task format
-            - pipenv run monoxide.py
+            - pipenv run python monoxide.py
 
     format:
         cmds:

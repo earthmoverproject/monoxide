@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 glaze-cloak = "*"
 numpy = "*"
+pillow = "*"
 
 [dev-packages]
 ruff = "*"
