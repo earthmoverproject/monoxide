@@ -1,0 +1,19 @@
+version: '3'
+
+tasks:
+
+    run:
+        cmds:
+            - task format
+            - pipenv run monoxide.py
+
+    format:
+        cmds:
+            - pipenv run ruff check --fix monoxide.py --config ruff.toml
+            - pipenv run ruff format monoxide.py --config ruff.toml
+
+    setup:
+        cmds:
+            - pipenv install
+            - pipenv lock
+            - pipenv sync

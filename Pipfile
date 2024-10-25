@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+glaze-cloak = "*"
+numpy = "*"
+
+[dev-packages]
+ruff = "*"
+
+[requires]
+python_version = "3.11"
