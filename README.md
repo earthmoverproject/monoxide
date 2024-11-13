@@ -1,2 +1,2 @@
 # monoxide
-mass image glazing to disrupt AI training data
+mass image noising and metadata randomization to disrupt AI training data

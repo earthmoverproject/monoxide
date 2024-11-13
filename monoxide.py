@@ -14,7 +14,6 @@ def main() -> None:
 
 def processImage(imageName: str) -> None:
     imageContents = Image.open(f"src/images/{imageName}").convert("RGB")
-    print(type(imageContents))
     noiseImage(imageContents)
 
 
